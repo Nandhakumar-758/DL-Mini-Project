@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.env
+backend/var/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Model artifacts and datasets are never committed (see artifacts/README.md, data/README.md)
+artifacts/*
+!artifacts/.gitkeep
+!artifacts/README.md
+data/*
+!data/.gitkeep
+!data/README.md
+!data/sample/
+!data/sample/*.txt
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.log
